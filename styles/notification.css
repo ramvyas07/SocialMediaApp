@@ -1,0 +1,19 @@
+body {
+    background-image: url('../images/chat.jpg');
+}
+@font-face {
+    font-family: 'proto';
+    src: url('../fonts//Prototype.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'proto';
+}
+
+.notification {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 80px;
+}

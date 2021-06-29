@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'proto';
+    src: url('../fonts//Prototype.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'proto';
+}
+
+.main_admin,
+.main_reg {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 5px;
+}
+.search {
+    background-color: #f4f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    background-color: #f4f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: scroll;
+}
+.api {
+    background-color: #f4f5f7;
+}
+
+textarea {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 10px 10px 5px;
+    border-radius: 10px;
+    resize: none;
+}
+form {
+    text-align: center;
+    margin: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btn-post {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.7em;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(40deg, #ff6ec4, #7873f5);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    margin: 20px;
+}
+
+.add_post {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#image_upload {
+    margin: 5px;
+}
+img {
+    width: 700px;
+    height: 30%;
+    border-radius: 5px;
+}
+img:hover {
+    border: #100b96 solid 5px;
+}
+
+.btn-comment {
+    background-color: hsl(189, 36%, 45%);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    padding: 5px;
+}
+
+.search h3 {
+    padding: 5px;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.search_people {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+    text-align: center;
+    width: auto;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 5px;
+}
+.username {
+    font-size: larger;
+    font-weight: bold;
+    color: #100b96;
+}
+.username,
+.email {
+    text-align: center;
+}
+.user {
+    padding: 20px;
+    cursor: pointer;
+}
+.user:hover {
+    transform: scaleY(2.5);
+    transform-origin: center;
+}
+
+.btn-search {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.7em;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(40deg, #15964b, #7873f5);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    margin: 20px;
+}
+.noshow {
+    display: none;
+}
+.car {
+    text-align: center;
+    padding: 10px;
+}
+.car:hover {
+    background-color: rgb(240, 247, 249);
+}
+
+.carImg {
+    width: 100%;
+    height: 300px;
+}
+
+.response {
+    display: grid;
+}
+
+.vin {
+    font-size: 2rem;
+}
+.structure {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+#page-title {
+    text-align: center;
+    font-size: 4rem;
+    padding: 20px;
+}
+#vin-title {
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+#sbmt-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.7em;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(40deg, #15964b, #7873f5);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    margin: auto;
+    margin-left: 70px;
+}
+#vin {
+    margin-left: 50px;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    margin: -20px;
+    cursor: pointer;
+}
+#main-sec {
+    padding-top: 20px;
+}

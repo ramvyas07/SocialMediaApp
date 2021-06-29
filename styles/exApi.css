@@ -1,0 +1,23 @@
+.carList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.car {
+    height: 300px;
+    background-color: rgb(240, 255, 254);
+    margin: 5px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 20px;
+}
+p {
+    padding-bottom: 20px;
+}
+
+.car:hover {
+    height: 300px;
+    background-color: rgb(199, 224, 223);
+}
+#name {
+    color: darkblue;
+}

@@ -1,0 +1,26 @@
+.carImage {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border-radius: 3px;
+}
+.carImage:hover {
+    border: solid black 3px;
+}
+.carList {
+    height: 100vh;
+    overflow: scroll;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+.gmap {
+    height: 500px;
+    width: 350px;
+}
+#carsTitle {
+    padding: 30px;
+    font-size: 3rem;
+}
